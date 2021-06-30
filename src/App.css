@@ -1,4 +1,5 @@
 .App {
+  background-image: url('./assets/images/background.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,4 +11,31 @@ header {
   text-align: center;
   color: white;
   padding: 1.5rem 0;
+}
+
+.model {
+  justify-content: space-between;
+}
+
+.model .col {
+  text-align: center;
+}
+
+.glasses {
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: white;
+}
+
+.glass img {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.model-imgs {
+  padding: 2rem;
+}
+
+.model-bg {
+  width: 100%;
 }
