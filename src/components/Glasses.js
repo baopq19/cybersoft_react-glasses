@@ -20,7 +20,7 @@ export default class Glasses extends Component {
             <div className="container">
                 <div className="row glasses">
                     {
-                        listGlasses.map(item => <Glass key={item.id} url={imgPath + "/" + item.name}/>)
+                        listGlasses.map(item => <Glass key={item.id} url={imgPath + item.name}/>)
                     }
                 </div>
             </div>
