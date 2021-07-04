@@ -2,13 +2,11 @@ import React, { Component } from 'react'
 
 export default class Model extends Component {
 
-    state = {
-        tryingGlass: 'v5.png'
-    }
+    
 
     renderTryingGlass() {
         return (
-            <img className="trying-glass" src={"./images/" + this.state.tryingGlass}></img>
+            <img className="trying-glass" src={this.props.tryingGlass}></img>
         );
     }
 
